@@ -3,8 +3,10 @@ Code for the generation and Analysis of RNNs of paper: Effect in the spectra of 
 
 Simulations were generated using python 3.6.9 Tensorflow version 2.0 and Keras 2.3.1 Following the procedure described previously in https://arxiv.org/abs/1906.01094
 
-To generate your sim configure and run loop_to_call.py which allows you to choose the task for traning, the number of networks to train and additional details.
+To generate your sim configure and run loop_to_call.py, which allows you to choose the task for traning, the number of networks to train and additional details.
 To change Training parameters you shold edit: 
+
+binary_and_recurrent_exi_ini_01.py
 
 The trained networks are saved in hdf5 format and can be opened using.
 
